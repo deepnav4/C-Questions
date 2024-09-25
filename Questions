@@ -1,0 +1,14 @@
+//Questions
+
+1. 
+#define x 5+2
+main(){
+   int i;
+   i=x*x*x;
+   printf("i is %d",i);
+}
+// Output i = 27;
+
+
+
+2. 
