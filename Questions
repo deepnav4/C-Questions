@@ -12,3 +12,211 @@ main(){
 
 
 2. 
+main(){
+  int n=65;
+  switch(n){
+    case 64:
+       printf("case 64\n");
+       break;
+    case 'A':
+       printf("case A\n");
+       break;
+    default:
+       printf("default case\n");
+  }
+}
+// Case A
+
+
+
+3.
+main(){
+   inti=1;
+   switch(i){
+      case 1:
+         printf("Hai");
+      default:
+         printf("Bye"); 
+   }
+}
+//HaiBye
+
+
+
+4.
+include<stdio.h>
+main(){
+   int i = 65;
+   switch(i){
+       case 65:
+         printf("lnteger 65");
+         break;
+       case 'A':
+         printf("Char 65");
+         break;
+       default:
+         printf("Bye");
+   }
+}
+//Compiler error dulplicate case label
+
+
+
+5.
+#include<stdio.h>
+int main(){
+   int i = 1;
+   i++;
+   switch(i--){
+      case 1:
+         printf("Case 1 executed");
+         break ;
+      case 2:
+         printf("Case 2 executed");
+         break ;
+      default :
+         printf("Default block executed");
+         break ;
+   }
+}
+// Case 2 executed
+
+
+
+6.
+main(){
+    int a=7;
+    switch(a){
+       case 1:
+       case 5:
+            break;
+       case 6:
+            printf("Hyderabad\n");
+            break;
+       case 2: 
+            printf("Banglore\n");
+            break;
+       case 3:
+       case 7:
+       case 1O:
+            printf("Chennai\n");
+            break;
+      default:
+            printf("Delhi\n");
+    }
+}
+// Chennai
+
+
+
+6.
+// ~n = -(n+1);
+int main(){
+   char val = 250;
+   int ans = val + !val + ~val + ++val;
+   printf("%d",ans);
+   return 0;
+}
+// ans = -6;
+
+
+
+7.
+main(){
+    const int a = 1; 
+    const int b = 2;
+    switch(a){
+         case a:
+            printf("Hyderabad\n");
+            break;
+         case b:
+            printf("Banglore\n");
+            break;
+         case 3:
+            printf("Chennai\n");
+            break;
+         case 4:
+            printf("Bombay\n");
+            break;
+         default:
+            printf("Delhi\n");
+            break;
+    }
+}
+
+
+
+
+8.
+main(){
+       switch(printf("haai")){
+         case 1:
+            printf("hyderabad\n");
+            break;
+         case 2:
+            printf("Banglore\n");
+            break;
+         case 3:
+            printf("Chennai\n");
+            break;
+         case 4:
+            printf("Bombay\n");
+            break;
+         default:
+            printf("Delhi\n");
+            break;
+      } 
+}
+// Bombay
+
+
+
+9.
+main(){
+      switch(5){
+          case 1:
+            printf("hyderabad\n");
+            break;
+         case 2:
+            printf("Banglore\n");
+            break;
+         case 3:
+            printf("Chennai\n");
+            break;
+         case 4:
+            printf("Bombay\n");
+            break;
+       }
+}
+// Empty output screen
+
+
+
+10.
+main(){
+     int a = 3;
+     switch(a){
+
+     }
+}
+//Empty output screen
+
+
+
+11.
+main(){
+  int k = 30;
+  printf("%d %d %d",k<=30,k=40,k==30);
+}
+//  0 40 1
+
+
+
+12.
+main(){
+if('A'<'a'){
+    printf("Hlww");
+else{
+    printf("Hii");
+}
+// Hlww
