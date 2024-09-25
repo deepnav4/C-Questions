@@ -220,3 +220,407 @@ else{
     printf("Hii");
 }
 // Hlww
+
+
+
+13.
+#include <stdio.h>
+int main() {
+    int x = 5;
+    printf("%d\n", x++);
+    printf("%d\n", ++x);
+    return 0;
+}
+
+
+
+14.
+#include <stdio.h>
+int main() {
+    int a = 5, b = 10;
+    printf("%d\n", a > b ? a : b);
+    return 0;
+}
+
+
+15.
+#include <stdio.h>
+int main() {
+    int x = 0;
+    if (x) {
+        printf("True\n");
+    } else {
+        printf("False\n");
+    }
+    return 0;
+}
+
+
+16.
+#include <stdio.h>
+int main() {
+    int x = 0;
+    if (x) {
+        printf("True\n");
+    } else {
+        printf("False\n");
+    }
+    return 0;
+}
+
+
+
+17.
+#include <stdio.h>
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+    printf("%d\n", arr[10]);
+    return 0;
+}
+
+
+
+18.
+#include <stdio.h>
+int main() {
+    char str[] = "Hello";
+    str[0] = 'h';
+    printf("%s\n", str);
+    return 0;
+}
+
+
+
+19.
+#include <stdio.h>
+int main() {
+    int a = 3, b = 4;
+    printf("%d\n", a & b);
+    return 0;
+}
+
+
+20.
+#include <stdio.h>
+int main() {
+    int x = 1;
+    printf("%d\n", x << 2);
+    return 0;
+}
+
+
+21.
+#include <stdio.h>
+int main() {
+    int x = 10;
+    int y = 5;
+    printf("%d\n", x ^ y);
+    return 0;
+}
+
+
+
+22.
+#include <stdio.h>
+int main() {
+    printf("%d\n", sizeof('a'));
+    return 0;
+}
+
+
+23.
+#include <stdio.h>
+int main() {
+    int x = 5;
+    printf("%d\n", x == 5 ? 1 : 0);
+    return 0;
+}
+
+
+24.
+#include <stdio.h>
+int main() {
+    int x = 5;
+    int y = x++ + ++x;
+    printf("%d\n", y);
+    return 0;
+}
+
+
+
+25.
+#include <stdio.h>
+int main() {
+    int x = 1;
+    if (x = 0) {
+        printf("Inside if\n");
+    } else {
+        printf("Inside else\n");
+    }
+    return 0;
+}
+
+
+26.
+#include <stdio.h>
+int main() {
+    int x = 10;
+    printf("%d\n", x / 0);
+    return 0;
+}
+
+
+
+27.
+#include <stdio.h>
+int main() {
+    int x = 0x1F;
+    printf("%d\n", x);
+    return 0;
+}
+
+
+
+28.
+#include <stdio.h>
+int main() {
+    int x = 0x1F;
+    printf("%d\n", x);
+    return 0;
+}
+
+
+29.
+#include <stdio.h>
+int main() {
+    char a = 127;
+    a++;
+    printf("%d\n", a);
+    return 0;
+}
+
+
+
+30.
+#include <stdio.h>
+int main() {
+    int arr[3] = {1, 2, 3};
+    int *p = arr;
+    printf("%d\n", *(p + 2));
+    return 0;
+}
+
+
+31.
+#include <stdio.h>
+int main() {
+    int a = 1, b = 2, c = 3;
+    printf("%d\n", (a, b, c));
+    return 0;
+}
+
+
+32.
+#include <stdio.h>
+int main() {
+    int x = 4;
+    printf("%d\n", x-- + --x);
+    return 0;
+}
+
+
+33.
+#include <stdio.h>
+int main() {
+    int x = 3;
+    printf("%d\n", x++ * 2 + --x);
+    return 0;
+}
+
+
+
+34.
+#include <stdio.h>
+int main() {
+    int x = 5, y = 10;
+    x = (y > x) ? (y = x + 2) : (x + 2);
+    printf("%d\n", x);
+    return 0;
+}
+
+35.
+#include <stdio.h>
+int main() {
+    int a = 0;
+    printf("%d\n", ++a + a++ + ++a);
+    return 0;
+}
+
+
+36.
+#include <stdio.h>
+int main() {
+    int x = 10;
+    printf("%d\n", x++ + ++x + x++);
+    return 0;
+}
+
+
+37.
+#include <stdio.h>
+int main() {
+    int arr[3] = {1, 2, 3};
+    int *p = arr + 1;
+    printf("%d\n", *(p - 1) + *(p + 1));
+    return 0;
+}
+
+
+38.
+#include <stdio.h>
+int main() {
+    int x = 5;
+    printf("%d\n", (x++ == 5) && (++x == 7));
+    return 0;
+}
+
+
+39.
+#include <stdio.h>
+int main() {
+    char str[] = "hello";
+    str[1] = 'a';
+    printf("%s\n", str);
+    return 0;
+}
+
+
+40.
+#include <stdio.h>
+int main() {
+    int x = 1;
+    printf("%d\n", x += x += x);
+    return 0;
+}
+
+
+41.
+#include <stdio.h>
+int main() {
+    int x = 1;
+    int y = (x = x + 1) + (x = x + 2);
+    printf("%d\n", y);
+    return 0;
+}
+
+
+42.
+#include <stdio.h>
+int main() {
+    int x = 0;
+    printf("%d\n", (x++) ? 1 : (x++) ? 2 : 3);
+    return 0;
+}
+
+
+43.
+#include <stdio.h>
+int main() {
+    int x = 5;
+    int y = (x++) + (++x);
+    printf("%d\n", y);
+    return 0;
+}
+
+
+44.
+#include <stdio.h>
+int main() {
+    int x = 0, y = 1;
+    printf("%d\n", (x == 0) && (y++));
+    printf("%d\n", y);
+    return 0;
+}
+
+
+45.
+#include <stdio.h>
+int main() {
+    int x = 1;
+    int y = x++ + ++x + x++;
+    printf("%d\n", y);
+    return 0;
+}
+
+
+46.
+#include <stdio.h>
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+    int *ptr = arr;
+    printf("%d\n", *(ptr + 2) + *(ptr + 3));
+    return 0;
+}
+
+
+47.
+#include <stdio.h>
+int main() {
+    int a = 5;
+    int b = a++;
+    printf("%d\n", b);
+    printf("%d\n", a);
+    return 0;
+}
+
+
+
+48.
+#include <stdio.h>
+int main() {
+    int x = 0;
+    for (int i = 0; i < 5; i++) {
+        x += i;
+    }
+    printf("%d\n", x);
+    return 0;
+}
+
+
+49.
+#include <stdio.h>
+int main() {
+    int a = 5;
+    printf("%d\n", (a > 5) ? (a += 2) : (a += 3));
+    return 0;
+}
+
+
+50.
+#include <stdio.h>
+int main() {
+    char str[] = "CProgramming";
+    str[2] = '\0';
+    printf("%s\n", str);
+    return 0;
+}
+
+
+51.
+#include <stdio.h>
+int main() {
+    int x = 2, y = 3;
+    printf("%d\n", (x == 2) && (y++ == 3));
+    printf("%d\n", y);
+    return 0;
+}
+
+
+52.
+#include <stdio.h>
+int main() {
+    int x = 2, y = 3;
+    printf("%d\n", (x == 2) && (y++ == 3));
+    printf("%d\n", y);
+    return 0;
+}
