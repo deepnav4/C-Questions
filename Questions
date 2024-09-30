@@ -626,4 +626,4 @@ int main() {
 }
 
 
-Dangling else
+Dangling else problem closest else statment will be executed 
