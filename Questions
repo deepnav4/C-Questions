@@ -119,6 +119,11 @@ int main(){
 }
 // ans = -6;
 
+#include<stdio.h>
+int main(){ 
+    int a,b,c;
+	printf("%d",printf("%d%d%d",printf("Hello"),scanf("%d %d",&a,&b),printf("Sir")));
+}
 
 
 7.
