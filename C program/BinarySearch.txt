@@ -1,1 +1,18 @@
-
+Search Insert Position: Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+Lower and Upper Bound: Given a sorted array and a target value, return the lower and upper bound indices of the target value.
+Sqrt: Given a number, find its square root using binary search.
+First and Last occurrence of a number: Given a sorted array and a target value, return the first and last occurrence indices of the target value.
+Search in sorted rotated array: Given a sorted and rotated array and a target value, return the index of the target value.
+Min element in sorted rotated array: Given a sorted and rotated array, return the minimum element.
+Find peak element in a mountain array: Given a mountain array (i.e., an array that increases and then decreases), return the peak element.
+Koko Eating Bananas: Given an array of piles of bananas and the number of hours Koko has to eat them, return the minimum number of bananas Koko can eat in the given time.
+Allocate Books: Given an array of pages in a book and the number of students, return the minimum number of pages each student can read.
+Aggressive Cows: Given an array of stalls and the number of cows, return the minimum distance between each cow.
+Minimize max distance to gas station: Given an array of gas stations and the number of cars, return the minimum maximum distance between each car and the nearest gas station.
+Capacity to ship packages within D days: Given an array of packages and the number of days, return the minimum capacity required to ship all packages within the given days.
+Median of 2 sorted arrays: Given two sorted arrays, return the median of the combined array.
+Nth root of a number: Given a number and the nth root, return the nth root of the number.
+Kth element of 2 sorted arrays: Given two sorted arrays and the kth element, return the kth element of the combined array.
+Find Peak element II: Given a mountain array, return the peak element.
+Find Median in row wise sorted array: Given a row-wise sorted array, return the median of the array.
+Search in row wise and column wise sorted array: Given a row-wise and column-wise sorted array and a target value, return the index of the target value.
