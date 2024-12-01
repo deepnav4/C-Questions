@@ -12,10 +12,6 @@ bool checkAnagram(char *w1, char *w2){
         int lower = tolower(w1[i]);
         w1lc[lower - 'a']++;
     }
-    for(int i=0; i<len1; i++){
-        int lower = tolower(w2[i]);
-        w2lc[lower - 'a']++;
-    }
     for(int i=0; i<26; i++)
         if(w1lc[i] != w2lc[i]) return false;
     return true;
