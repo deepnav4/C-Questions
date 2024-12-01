@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Row wise spiral matrix 
 int main() {
     int rows1,columns1;
     printf("Enter a Number of Rows of Matrix 1 : ");
@@ -37,3 +37,7 @@ int main() {
         }
         printf("\n");
     }
+
+
+// Column wise spiral matrix
+// Just replace i -> j and j -> i in printf loop 
